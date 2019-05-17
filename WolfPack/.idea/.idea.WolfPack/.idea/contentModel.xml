@@ -12,6 +12,9 @@
           <e p="Enter.cs" t="Include" />
           <e p="Exit.cs" t="Include" />
           <e p="Move.cs" t="Include" />
+          <e p="Pack.cs" t="Include" />
+          <e p="PlayerFollow.cs" t="Include" />
+          <e p="Recruit.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

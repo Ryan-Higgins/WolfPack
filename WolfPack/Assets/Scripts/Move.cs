@@ -7,18 +7,18 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public Rigidbody rb;
-    public int speed;
+    public static int speed;
     
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        speed = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
-        print(Input.GetAxis("Horizontal"));
         Vector3 move = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
 
         
