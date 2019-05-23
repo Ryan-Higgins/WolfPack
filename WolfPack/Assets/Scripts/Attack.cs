@@ -30,5 +30,12 @@ public class Attack : MonoBehaviour
             Den.fur += 1;
             Den.bones += 2;
         }
+
+        if (other.gameObject.CompareTag("Human"))
+        {
+            other.gameObject.SetActive(false);
+            Den.bones += 5;
+            Den.meat += 2;
+        }
     }
 }

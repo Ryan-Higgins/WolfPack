@@ -19,6 +19,7 @@ public class Recruit : MonoBehaviour
    {
     print("Worked");
     myPack.partOfPack = true;
+    Den.pack.Add(gameObject);
    }
   }
  }

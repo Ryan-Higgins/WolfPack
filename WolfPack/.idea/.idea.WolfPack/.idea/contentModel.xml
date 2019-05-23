@@ -8,13 +8,18 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Attack.cs" t="Include" />
+          <e p="Boid.cs" t="Include" />
           <e p="Den.cs" t="Include" />
           <e p="Enter.cs" t="Include" />
           <e p="Exit.cs" t="Include" />
+          <e p="Flee.cs" t="Include" />
+          <e p="FollowPath.cs" t="Include" />
           <e p="Move.cs" t="Include" />
           <e p="Pack.cs" t="Include" />
+          <e p="Path.cs" t="Include" />
           <e p="PlayerFollow.cs" t="Include" />
           <e p="Recruit.cs" t="Include" />
+          <e p="SteeringBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
